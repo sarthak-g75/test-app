@@ -7,7 +7,7 @@ import Login from './Login';
 import SignUp from "./SignUp"
 import AdminPage from './AdminPage';
 import FormPage from './FormPage';
-import AdminSignUp from './AdminSignUp.js';
+
 import {
   BrowserRouter,
   Routes,
@@ -22,7 +22,7 @@ root.render(
     <App />
     <Routes>
       {/* <Route path='/' element={<App/>}/> */}
-      <Route path='/adminSignUp' element={<AdminSignUp/>}/>
+     
       <Route path='/signUp' element={<SignUp/>}/>
       <Route path='/login' element={<Login/>}/>
       <Route path='/formPage' element={<FormPage/>}/>
